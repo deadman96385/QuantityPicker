@@ -243,7 +243,7 @@ public class QuantityPicker extends LinearLayout {
     /**
      * To set the quantity value to the quantity picker
      */
-    private void setQuantitySelected(int quantity) {
+    public void setQuantitySelected(int quantity) {
         if (quantity <= 0)
             mTextViewQuantity.setText("0");
         else
